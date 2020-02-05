@@ -4,16 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "mongodb": "^2.2.5",
-    "mongoose": "^4.5.9"
+    "xlsx": "^0.15.2"
   },
   "devDependencies": {
     "expect": "^1.20.2",
